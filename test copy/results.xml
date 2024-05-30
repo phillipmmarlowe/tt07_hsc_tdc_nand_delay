@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1717109090" />
+    <testcase name="test_tdc" classname="tdc_test" file="/mada/users/tsheaves/Desktop/TT07/tt07_hsc_tdc_and_delay/test/tdc_test.py" lineno="9" time="26.94583749771118" sim_time_ns="1926666.001" ratio_time="71501.43324228292" />
+  </testsuite>
+</testsuites>
