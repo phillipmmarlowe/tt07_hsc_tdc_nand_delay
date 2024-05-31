@@ -48,7 +48,7 @@ module dnand #(parameter WIDTH=32) (
 		genvar i;
 		for(i=0; i<WIDTH; i=i+1) begin : dnand_genblk
 		    `NAND_CELL DN ( 
-                .X(ffout_w[i+1]), 
+                .Y(ffout_w[i+1]), 
                 .A(a_int[i]), 
                 .B(ffout_w[i])
                 `ifdef USE_POWER_PINS
