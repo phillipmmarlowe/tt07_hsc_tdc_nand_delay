@@ -17,8 +17,8 @@ module delay_line #(
 	
     generate
 	    case(DL_TYPE)
-		    "DAND": begin : dl_genblk
-                            dand #(.WIDTH(N)) dl (
+		    "DNAND": begin : dl_genblk
+                            dnand #(.WIDTH(N)) dl (
 			          .pulse_i(in),
                                   .meas_o(dl_out)
 			     );

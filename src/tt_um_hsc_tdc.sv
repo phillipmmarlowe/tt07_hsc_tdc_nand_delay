@@ -14,7 +14,7 @@ module tt_um_hsc_tdc (
 assign uio_oe = 8'hFF;
 assign uio_out = 8'h00;
 
-localparam DL_TYPE = "DAND";
+localparam DL_TYPE = "DNAND";
 localparam POP_METHOD = "SV";
 localparam N = 64;
 localparam N_SYNC = 1;
