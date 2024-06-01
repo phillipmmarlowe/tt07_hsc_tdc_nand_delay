@@ -59,7 +59,7 @@ module const_ones #(parameter N=64) (
     endgenerate
 
 endmodule
-
+/*
 module const_zeros #(parameter N=64) (
     output [N-1:0] zeros
 );
@@ -81,7 +81,7 @@ module const_zeros #(parameter N=64) (
     endgenerate
 
 endmodule
-
+*/
 module rca #(parameter WIDTH=32) ( 
 	input 			    pulse,
 	output  [WIDTH-1:0] meas
