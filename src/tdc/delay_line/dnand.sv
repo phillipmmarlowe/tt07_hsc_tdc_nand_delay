@@ -37,8 +37,8 @@ module dnand #(parameter WIDTH=32) (
 	(* keep *) wire [WIDTH:0] ffout_w;
 	(* keep *) wire [WIDTH-1:0] a_int;
 	
-	const_ones #(.N(WIDTH)) ones(
-        .ones(a_int)
+	const_zeros #(.N(WIDTH)) ones(
+        .zeros(a_int)
     );
 	
 	assign ffout_w[0] = pulse_i;
