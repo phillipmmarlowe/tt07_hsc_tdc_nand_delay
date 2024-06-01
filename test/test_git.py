@@ -8,7 +8,7 @@ from cocotb.decorators import coroutine
 # TODO: move elsewhere
 class TDCCtrl:
     
-    def __init__(self, clk_period, dut, n_sync_stages, is_inverted=False):
+    def __init__(self, clk_period, dut, n_sync_stages, is_inverted=True):
         
         self.clk_period=clk_period
         self.dut=dut
